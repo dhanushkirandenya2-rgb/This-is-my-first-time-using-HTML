@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../Users/dhanu/Desktop/Learning HTML"
+	},
+	{
+		"name": "This-is-my-first-time-using-HTML",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "This-is-my-first-time-using-HTML"
+  }
+}

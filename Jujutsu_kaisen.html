@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Sithew Hettiarachchi" />
-    <meta name="description" content="A webpage about the anime Jujutsu Kaisen" />
-    <meta name="keywords" content="Jujutsu Kaisen, anime, manga, characters, plot" />
+    <meta
+      name="description"
+      content="A webpage about the anime Jujutsu Kaisen"
+    />
+    <meta
+      name="keywords"
+      content="Jujutsu Kaisen, anime, manga, characters, plot"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jujutsu Kaisen</title>
     <link rel="icon" type="image/png" href="JJK favicon.png" />
+    <link rel="stylesheet" href="JJK style.css" />
   </head>
   <body>
     <a
@@ -15,53 +22,273 @@
       target="_blank"
       title="goes to wikipedia page"
     >
-      <img src="JJK logo.jpeg" alt="Jujutsu Kaisen Logo" />
+      <img
+        src="JJK logo.jpeg"
+        style="filter: invert(1); max-height: 80px"
+        alt="Jujutsu Kaisen Logo"
+      />
     </a>
-    <h4>Plot</h4>
+    <h2
+      style="
+        font-family: &quot;Outfit&quot;, &quot;Teko&quot;, sans-serif;
+        font-weight: 800;
+        color: #ff007f;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+      "
+    >
+      Plot
+    </h2>
+
     <br />
-    <pre>
-      Jujutsu Kaisen (呪術廻戦; rgh. 'Sorcery Battle'[a]) is a Japanese manga
-      series written and illustrated by Gege Akutami. It was serialized in
-      Shueisha's shōnen manga magazine Weekly Shōnen Jump from March 2018 to
-      September 2024, with its chapters collected in 30 tankōbon volumes. The
-      story follows high school student Yuji Itadori as he joins a secret
-      organization of Jujutsu Sorcerers to eliminate a powerful Curse named
-      Ryomen Sukuna, of whom Yuji becomes the host.
-    </pre>
+    <p
+      style="
+        font-family: &quot;Inter&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+        font-size: 16px;
+        color: #cbd5e1;
+        line-height: 1.7;
+        font-weight: 400;
+        max-width: 650px;
+        margin-bottom: 20px;
+      "
+    >
+      In a world where negative human emotions manifest as deadly
+      <span style="color: #ff3344; font-weight: 600">Cursed Spirits</span>, high
+      schooler Yuji Itadori accidentally swallows a rotting finger belonging to
+      Ryomen Sukuna—the legendary King of Curses.
+    </p>
+
+    <p
+      style="
+        font-family: &quot;Inter&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+        font-size: 16px;
+        color: #cbd5e1;
+        line-height: 1.7;
+        font-weight: 400;
+        max-width: 650px;
+        margin-bottom: 20px;
+      "
+    >
+      To contain the curse, Yuji is thrust into the secretive world of Tokyo
+      Jujutsu High under the mentorship of
+      <span style="color: #00d2ff; font-weight: 600">Satoru Gojo</span>, forcing
+      him into a lethal battle to consume the remaining fingers before his
+      eventual execution.
+    </p>
+
     <hr />
-    <img
-      src="satoru-gojo-acenando-satoru-gojo-hello-gif-satoru-gojo-acena.gif"
-      height="200"
-      width="200"
-      alt="Satoru Gojo waving"
-    />
-    <video
-      src="Aizo.mp4"
-      width="400"
-      height="300"
-      controls
-      autoplay
-      loop
-    ></video>
-    
-    <h4>My Favourite characters</h4>
-    <ul>
-      <li>Hakari Kinji</li>
-      <ul>
-        <li></li><mark style="background-color: greenyellow;">Cursed technique:Idle death gamble</mark></li>
-      </ul>
-      <li>Satoru Gojo</li>
-      <ul>
-        <li><mark style="background-color: deepskyblue;">Cursed technique:Limitless</mark></li>
-      </ul>
-      <li>Kashimo Hajime</li>
-      <ul>
-        <li>
-          <mark style="background-color: rebeccapurple"
-            >Cursed technique:Mythical beast:Amber</mark
-          >
-        </li>
-      </ul>
+    <!-- Video/GIF Grid Container -->
+    <div
+      style="
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 30px 0;
+        flex-wrap: wrap;
+      "
+    >
+      <!-- Gojo GIF Wrapper -->
+      <div
+        style="
+          position: relative;
+          border-radius: 8px;
+          overflow: hidden;
+          border: 2px solid #00d2ff;
+          box-shadow: 0 0 15px rgba(0, 210, 255, 0.3);
+          line-height: 0;
+        "
+      >
+        <img
+          src="satoru-gojo-acenando-satoru-gojo-hello-gif-satoru-gojo-acena.gif"
+          style="
+            width: 100%;
+            max-width: 320px;
+            height: 200px;
+            object-fit: cover;
+          "
+          alt="Gojo Animated GIF"
+        />
+      </div>
+
+      <!-- S3 Opening Aizo Panel Wrapper -->
+      <div
+        style="
+          position: relative;
+          border-radius: 8px;
+          overflow: hidden;
+          border: 2px solid #ff007f;
+          box-shadow: 0 0 15px rgba(255, 0, 127, 0.3);
+          line-height: 0;
+        "
+      >
+        <video
+          src="Aizo.mp4"
+          style="
+            width: 100%;
+            max-width: 320px;
+            height: 200px;
+            object-fit: cover;
+          "
+          alt="S3 Opening Aizo"
+          controls
+          autoplay
+          loop
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <h4
+      style="
+        font-family: &quot;Outfit&quot;, sans-serif;
+        font-weight: 800;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      "
+    >
+      My Favourite characters
+    </h4>
+
+    <ul
+      style="
+        list-style-type: none;
+        padding-left: 0;
+        font-family: &quot;Inter&quot;, sans-serif;
+      "
+    >
+      <!-- Hakari Kinji -->
+      <li style="margin-bottom: 20px">
+        <strong
+          style="
+            color: #ff007f;
+            font-size: 18px;
+            font-family: &quot;Outfit&quot;, sans-serif;
+          "
+          >Hakari Kinji</strong
+        >
+        <ul
+          style="list-style-type: square; padding-left: 20px; margin-top: 5px"
+        >
+          <li>
+            <mark
+              style="
+                background-color: #ff007f;
+                color: white;
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-weight: 600;
+              "
+            >
+              Cursed technique: Idle death gamble
+            </mark>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Satoru Gojo -->
+      <li style="margin-bottom: 20px">
+        <strong
+          style="
+            color: #00d2ff;
+            font-size: 18px;
+            font-family: &quot;Outfit&quot;, sans-serif;
+          "
+          >Satoru Gojo</strong
+        >
+        <ul
+          style="list-style-type: square; padding-left: 20px; margin-top: 5px"
+        >
+          <li>
+            <mark
+              style="
+                background-color: #00d2ff;
+                color: #0d0f14;
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-weight: 600;
+              "
+            >
+              Cursed technique: Limitless
+            </mark>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Kashimo Hajime -->
+      <li style="margin-bottom: 20px">
+        <strong
+          style="
+            color: #ffd700;
+            font-size: 18px;
+            font-family: &quot;Outfit&quot;, sans-serif;
+          "
+          >Kashimo Hajime</strong
+        >
+        <ul
+          style="list-style-type: square; padding-left: 20px; margin-top: 5px"
+        >
+          <li>
+            <mark
+              style="
+                background-color: #ffd700;
+                color: #0d0f14;
+                padding: 2px 6px;
+                border-radius: 4px;
+                font-weight: 600;
+              "
+            >
+              Cursed technique: Mythical beast: Amber
+            </mark>
+          </li>
+        </ul>
+      </li>
     </ul>
+    <!-- Footer Section -->
+    <footer
+      style="
+        margin-top: 60px;
+        padding: 20px 0;
+        border-top: 1px solid #2a3447;
+        text-align: center;
+        font-family: &quot;Inter&quot;, sans-serif;
+      "
+    >
+      <!-- Subtle Cursed Energy Icon/Text -->
+      <p
+        style="
+          font-family: &quot;Outfit&quot;, sans-serif;
+          font-size: 12px;
+          color: #ff007f;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          margin-bottom: 5px;
+        "
+      >
+        // Jujutsu Sorcerer Database
+      </p>
+
+      <!-- Main Copyright -->
+      <p style="font-size: 13px; color: #64748b; margin: 0">
+        &copy; 2026 Crafted by a Jujutsu Fan.
+      </p>
+
+      <!-- Quick Disclaimer (Good for fan sites!) -->
+      <p
+        style="
+          font-size: 11px;
+          color: #475569;
+          margin-top: 5px;
+          font-style: italic;
+        "
+      >
+        Jujutsu Kaisen is owned by Gege Akutami / Shueisha. This is a non-profit
+        fan project.
+      </p>
+    </footer>
   </body>
 </html>
